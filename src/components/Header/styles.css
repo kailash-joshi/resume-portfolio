@@ -1,0 +1,19 @@
+.headerImg {
+  background-image: url("https://wallpaperaccess.com/full/3604547.jpg");
+  background-repeat: no-repeat;
+  min-height: 30rem;
+  max-width: 100%;
+}
+.imageContainer {
+  width: 56px;
+  height: 56px;
+}
+.profileImage {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+.profilePhotoContainer {
+  width: 20rem;
+  height: 20rem;
+}
