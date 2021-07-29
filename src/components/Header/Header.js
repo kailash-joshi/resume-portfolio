@@ -22,7 +22,7 @@ export default function Header() {
         <div className="row gx-0">
           <div className="col-sm-12 ">
             <div className="p-3">EXPERIENCE SUMMARY</div>
-            <div className="p-3">
+            <div className="p-3 textAlignJustify">
               Kailash has over <strong>5.8 years</strong> of experience in the
               software industry. He has experience in the development of
               web-based applications using technologies such as{" "}
