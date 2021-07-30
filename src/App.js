@@ -1,3 +1,4 @@
+import Employment from "./components/Employment/Employement";
 import Header from "./components/Header/Header";
 import Skills from "./components/Skills/Skills";
 import "./styles.css";
@@ -10,10 +11,15 @@ export default function App() {
           <Header />
         </div>
         <div className="col-sm-12">
-          <Skills />
+          <div className="row">
+            <div className="col-sm-6">
+              <Skills />
+            </div>
+            <div className="col-sm-6">
+              <Employment />
+            </div>
+          </div>
         </div>
-        <div className="col-sm-12">header</div>
-        <div className="col-sm-12">header</div>
       </div>
     </div>
   );
